@@ -1,0 +1,98 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(0, 225, 255, 0.904);
+    color: #fff;
+    overflow-y: scroll;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#mantenimiento-tipos {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 700px;
+}
+
+/* Estilo base para los bloques */
+.mantenimiento {
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 3px solid white;
+    box-shadow:
+        0 0 5px rgba(255, 255, 255, 0.6),
+        inset 0 0 10px rgba(255, 255, 255, 0.3);
+    animation: border3d 3s ease-in-out infinite, floatMove 6s ease-in-out infinite;
+}
+
+/* Animación que simula movimiento 3D en el borde */
+@keyframes border3d {
+    0%, 100% {
+        box-shadow:
+            0 0 5px rgba(255, 255, 255, 0.6),
+            inset 0 0 10px rgba(255, 255, 255, 0.3);
+        border-color: #ffffff;
+    }
+    50% {
+        box-shadow:
+            0 0 15px rgba(255, 255, 255, 1),
+            inset 0 0 20px rgba(255, 255, 255, 0.6);
+        border-color: #aaddff;
+    }
+}
+
+/* Nueva animación para movimiento suave de los cuadros */
+@keyframes floatMove {
+    0%, 100% {
+        transform: translateY(0);
+        filter: drop-shadow(0 0 0 rgba(0,0,0,0));
+    }
+    50% {
+        transform: translateY(-10px);
+        filter: drop-shadow(0 10px 10px rgba(0,0,0,0.2));
+    }
+}
+
+/* Títulos y párrafos */
+.mantenimiento h3 {
+    margin-bottom: 12px;
+    font-weight: bold;
+    text-shadow: 0 0 5px rgba(255,255,255,0.7);
+}
+
+.mantenimiento p {
+    font-size: 1em;
+    line-height: 1.4;
+}
+.mantenimiento:nth-child(1) {
+    animation-delay: 0s, 0s;
+}
+.mantenimiento:nth-child(2) {
+    animation-delay: 0s, 1s;
+}
+.mantenimiento:nth-child(3) {
+    animation-delay: 0s, 2s;
+}
+.mantenimiento:nth-child(4) {
+    animation-delay: 0s, 3s;
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(0, 195, 255, 0.904);
+    color: #020202;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #f1f1f1;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.table-wrapper {
+    width: 48%;
+    background-color: white;
+    box-shadow: 0 2px 5px rgb(252, 250, 250);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.table-scroll {
+    overflow-x: auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 700px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #3498db;
+    color: white;
+}
+
+.table-image {
+    width: 80px; 
+    height: 60px; 
+    object-fit: cover; 
+    display: block;
+    margin: 0 auto;
+}
+
+.table-scroll::-webkit-scrollbar {
+    height: 8px;
+}
+
+.table-scroll::-webkit-scrollbar-thumb {
+    background: #454b4e;
+    border-radius: 10px;
+}
+
+.table-scroll::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+footer {
+    background-color: #fcfcfc;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.table-image {
+    width: 80px;  
+    height: 60px; 
+    object-fit: cover; 
+    margin: 0 auto;
+}
+

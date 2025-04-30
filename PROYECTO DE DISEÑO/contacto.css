@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Oswald-Variable";
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-size: 20px;
+}
+
+header {
+    background: #214d1e;
+    color: #FADA7A;
+    padding: 20px 0;
+    text-align: center;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    background: #d4b830;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+#response-message {
+    margin-top: 20px;
+    color: green;
+}
+.boton-regresar {
+    padding: 10px 20px;
+    background-color: #214d1e;
+    color: white; 
+    border: navy; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 20px;
+    font-family: "Oswald-Variable";
+    src: url(Oswald-VariableFont_wght.ttf);
+}

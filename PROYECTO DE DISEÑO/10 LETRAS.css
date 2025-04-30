@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "Inconsolata-VariableFont_wdth,wght";
+    src: url(/css/BebasNeue-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "Jersey10-Regular";
+    src: url(/css/Sevillana-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "Lobster-Regular";
+    src: url(/css/Honk-Regular-VariableFont_MORF\,SHLN.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "Merriweather-Black";
+    src: url(/css/Jersey15-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "PlayfairDisplay-Italic-VariableFont_wght";
+    src: url(/css/Lora-Bold.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "RubikBubbles-Regular";
+    src: url(/css/Lora-Italic-VariableFont_wght.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "RubikVinyl-Regular";
+    src: url(/css/MysteryQuest-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "TitilliumWeb-Black";
+    src: url(/css/NotoSansOldItalic-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "WorkSans-Italic-VariableFont_wght";
+    src: url(/css/PlaywriteIEGuides-Regular.ttf)
+    format('truetype');
+}
+@font-face {
+    font-family: "TiltPrism-Regular-VariableFont_XROT,YROT";
+    src: url(/css/Lora-Italic-VariableFont_wght.ttf)
+    format('truetype');
+}
+#p1 {
+    font-family: "Inconsolata-VariableFont_wdth,wght" ;
+    font-size: 50px;
+    color:red;
+}
+#p2 {
+    font-family: "Jersey10-Regular" ;
+    font-size: 75px;
+    color: black;
+}
+#p3 {
+    font-family: "Lobster-Regular" ;
+    font-size: 40px;
+    color: brown;
+}
+#p4 {
+    font-family: "Merriweather-Black" ;
+    font-size: 38px;
+    color: teal;
+}#p5 {
+    font-family: "PlayfairDisplay-Italic-VariableFont_wght" ;
+    font-size: 35px;
+    color: peru;
+}#p6 {
+    font-family: "RubikBubbles-Regular" ;
+    font-size: 52px;
+    color:dodgerblue;
+}#p7 {
+    font-family: "RubikVinyl-Regular" ;
+    font-size: 29px;
+    color: lawngreen;
+}#p8 {
+    font-family: "TitilliumWeb-Black" ;
+    font-size: 26px;
+    color: saddlebrown;
+}#p9 {
+    font-family: "WorkSans-Italic-VariableFont_wght" ;
+    font-size: 50px;
+    color: purple;
+}#p10 {
+    font-family: "TiltPrism-Regular-VariableFont_XROT,YROT" ;
+    font-size: 50px;
+    color: blue;
+}
